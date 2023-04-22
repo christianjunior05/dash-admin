@@ -1,0 +1,31 @@
+#welcome-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.statistics-item {
+    flex: 0 0 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-item h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.statistics-item p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
