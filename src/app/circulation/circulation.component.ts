@@ -8,3 +8,13 @@ import { Component } from '@angular/core';
 export class CirculationComponent {
 
 }
+
+// export class Circul{
+//   voir (){
+//     console.log("ok")
+//   }
+// }
+// const para = document.querySelector("p")
+// para.textContent = "bonjours"
+// let voir = new Circul()
+// voir.voir()

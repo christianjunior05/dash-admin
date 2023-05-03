@@ -1,1 +1,125 @@
 <app-sidebar></app-sidebar>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid ">
+    <div class="row p-2">
+      <h4>Car en cours </h4>
+      <div class="col-lg-12 ">
+        <table class="table table-hover table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Ligne</th>
+              <th scope="col">Matricule</th>
+              <th scope="col">Ticket</th>
+              <th scope="col">Destination</th>
+              <th scope="col">HD-HA</th>
+              <th scope="col"></th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">L120</th>
+              <td>CE25V1</td>
+              <td>300K</td>
+              <td>Angré</td>
+              <td>06h30- en cours</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button></td>
+            </tr>
+            <tr>
+              <th scope="row">L250</th>
+              <td>CE45V2</td>
+              <td>20AK</td>
+              <td>Yopougon</td>
+              <td>06h30- en cours</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button></td>
+
+            </tr>
+            <tr>
+              <th scope="row">L120</th>
+              <td>CE25V1</td>
+              <td>300K</td>
+              <td>Angré</td>
+              <td>06h30- en cours</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+     <div class="row p-2">
+      <h4>Car Prévu</h4>
+      <div class="col-lg-12 ">
+        <table class="table table-hover table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Ligne</th>
+              <th scope="col">Matricule</th>
+              <th scope="col">Ticket</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Date départ</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">L120</th>
+              <td>CE25V1</td>
+              <td>300K</td>
+              <td>Angré</td>
+              <td>20-06-2023</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button></td>
+            </tr>
+            <tr>
+              <th scope="row">L250</th>
+              <td>CE45V2</td>
+              <td>20AK</td>
+              <td>Yopougon</td>
+              <td>20-06-2023</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button></td>
+            </tr>
+            <tr>
+              <th scope="row">L120</th>
+              <td>CE25V1</td>
+              <td>300K</td>
+              <td>Angré</td>
+              <td>20-06-2023</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+</body>
+</html>
